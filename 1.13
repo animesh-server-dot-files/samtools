@@ -16,4 +16,5 @@ set	prefix		$env(MODULE_PREFIX)/modules_source/samtools/v1.13/package
 
 module-whatis	"$program version: $version"
 
-prepend-path	PATH       $prefix/
+prepend-path    PATH        $prefix/bin
+prepend-path	MANPATH     $prefix/share/man
